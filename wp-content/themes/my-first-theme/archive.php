@@ -34,6 +34,9 @@ $description = get_the_archive_description();
 		<?php the_excerpt();
         ?>
 	<?php endwhile; ?>
+    <?php
+        the_posts_navigation(); //or the_post_pagination(); does the same thing. 
+    ?>
 
 
 

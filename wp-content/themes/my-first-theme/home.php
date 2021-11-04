@@ -15,6 +15,9 @@ while (have_posts()) : the_post();
 <?php
 endwhile;
 ?>
+<?php
+        the_posts_navigation();
+?>
 
 <?php
 get_footer();
