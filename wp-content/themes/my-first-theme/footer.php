@@ -9,6 +9,9 @@
             <li><a href="#">Foot</a></li>
         </ul>
     </nav>
+        <?php
+                get_sidebar('Footer Menu');
+        ?>
 </footer>
 </div>
 <?php

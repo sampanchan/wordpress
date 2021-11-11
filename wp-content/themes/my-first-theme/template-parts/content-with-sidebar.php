@@ -17,7 +17,10 @@
         ?>
         
     </div>
-    <?php
-            get_sidebar('Primary Sidebar');
-    ?>
+    <div class="reg-sidebar">
+        <?php
+                get_sidebar('Primary Sidebar');
+        ?>
+    </div>
+    
 </div>

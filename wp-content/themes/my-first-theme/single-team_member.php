@@ -36,7 +36,7 @@ get_header();
                 </p>
                 <p>
                     <label for="">LinkedIn:</label>
-                    <span><?php the_field('linkedin');?></span>
+                    <span><a href="#" class="link"><?php the_field('linkedin');?></a></span>
                 </p>
                 <p>
                     <label for="">Twitter:</label>

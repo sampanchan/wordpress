@@ -80,11 +80,123 @@ p{
     margin: 0 auto;
 }
 
+/* widgets/ sidebars */
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+}
+@media screen and (min-width: 768px){
+    #sidebar-secondary{
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    align-items: center;
+    justify-content: space-evenly;
+}
+}
+
+.wp-block-social-links{
+    justify-content:  center !important; 
+}
+
+
+/* blog --> home */
+.has-sidebar{
+    margin:2rem;
+    text-align: center;
+}
+
+/* single blog post */
+.blog-div{
+    margin:2rem;
+}
+.reg-sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+@media screen and (min-width: 768px){
+    .reg-sidebar{
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .blog-div{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin: 6rem;
+    }
+    
+}
+
+
+/* CPT's */
+.cpt-header{
+    text-align: center;
+    color: white;
+    font-size:3rem;
+}
+
+/* services */
+.price-label{
+    font-weight: bold;
+    font-size: 2rem;
+}
+.price{
+    font-size: 2rem;
+}
+.service-container{
+    
+    text-align: center;
+    
+}
+@media screen and (min-width: 768px){
+    .service-container{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+}
+.service-div{
+    width: 100%;
+}
+@media screen and (min-width: 768px){
+    .service-div{
+        width: 80%;
+    }
+}
+
 /* team-members */
 .container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-content: center;
     justify-content: center;
     align-items: center;
 }
+@media screen and (min-width: 768px){
+    .container{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.link{
+    color: white;
+    text-decoration: none;
+}
+.link:hover{
+    color:rgb(83, 233, 41);
+    transition: .5s ease-in-out;
+}
+

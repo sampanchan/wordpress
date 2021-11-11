@@ -2,15 +2,28 @@
 get_header();
 ?>
 
-<?php
-while (have_posts()) : the_post();
-?>
-    <h1><?php the_title(); ?></h1>
-    <?php the_content(); ?>
+<article class="blog-container">
 
-<?php
-endwhile;
-?>
+    <?php
+    while (have_posts()) : the_post();
+    ?>
+    <div class="blog-div">
+        <h1><?php the_title(); ?></h1>
+        <?php the_content(); ?>
+    </div>
+        
+
+    <?php
+    endwhile;
+    ?>
+    <div class="reg-sidebar">
+        <?php 
+        get_sidebar('Primary Sidebar')
+        ?>
+    </div>
+    
+</article>
+
 
 <?php
 get_footer();

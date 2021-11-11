@@ -115,7 +115,7 @@
             "max_width": 500,
             "max_height": 500,
             "max_size": "",
-            "mime_types": "JPG, JEPG, PNG, GIF"
+            "mime_types": "JPG, JPEG, PNG, GIF"
         }
     ],
     "location": [
@@ -136,5 +136,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1636595241
+    "modified": 1636641730
 }
