@@ -79,3 +79,12 @@ p{
 .wp-image-46{
     margin: 0 auto;
 }
+
+/* team-members */
+.container{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}

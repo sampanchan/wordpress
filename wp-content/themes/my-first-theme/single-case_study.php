@@ -1,7 +1,7 @@
 <?php
 get_header();
 ?>
-<h4>HIIIIII</h4>
+<h4 class="cpt-header">Sample Case Study</h4>
 <?php
 while (have_posts()) : the_post();
 ?>

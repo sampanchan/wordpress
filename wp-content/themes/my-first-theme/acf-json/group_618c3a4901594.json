@@ -1,0 +1,68 @@
+{
+    "key": "group_618c3a4901594",
+    "title": "Service Field",
+    "fields": [
+        {
+            "key": "field_618c3b66ec89f",
+            "label": "Starting Price",
+            "name": "starting_price",
+            "type": "text",
+            "instructions": "Put in your starting price. E.g. $100",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "$",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_618c3d57ec8a0",
+            "label": "Icon",
+            "name": "icon",
+            "type": "image",
+            "instructions": "Upload image of your service.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": 150,
+            "min_height": 150,
+            "min_size": "",
+            "max_width": 500,
+            "max_height": 500,
+            "max_size": "",
+            "mime_types": "JPEG, PNG, JPG, GIF"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "service"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1636580931
+}

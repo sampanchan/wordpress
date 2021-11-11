@@ -1,0 +1,140 @@
+{
+    "key": "group_618c72c1bd213",
+    "title": "Team Member",
+    "fields": [
+        {
+            "key": "field_618c72d1c8562",
+            "label": "Job Title",
+            "name": "job_title",
+            "type": "text",
+            "instructions": "Type in your job title",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Manager",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_618c7311c8563",
+            "label": "Email",
+            "name": "email",
+            "type": "email",
+            "instructions": "Type the email here.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "someone@somplace.com",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_618c733bc8564",
+            "label": "Phone",
+            "name": "phone",
+            "type": "text",
+            "instructions": "Type 10 digit phone number.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "(000)-000-0000",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_618c738ac8565",
+            "label": "Twitter",
+            "name": "twitter",
+            "type": "text",
+            "instructions": "Type your twitter handle",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "@someone",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_618c749a37c8c",
+            "label": "LinkedIn",
+            "name": "linkedin",
+            "type": "url",
+            "instructions": "Paste the LinkedIn URL.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_618c75dfe28d1",
+            "label": "Headshot",
+            "name": "headshot",
+            "type": "image",
+            "instructions": "Upload image",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": 150,
+            "min_height": 150,
+            "min_size": "",
+            "max_width": 500,
+            "max_height": 500,
+            "max_size": "",
+            "mime_types": "JPG, JEPG, PNG, GIF"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "team_member"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1636595241
+}

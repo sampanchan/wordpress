@@ -2,6 +2,8 @@
 
 
 include ('includes/post-type-case_study.php');
+include ('includes/post-type-service.php');
+include ('includes/post-type-team_member.php');
 function mft_theme_setup(){
     register_nav_menus(
         array(
@@ -13,6 +15,15 @@ function mft_theme_setup(){
     register_sidebar( array(
         'name'          => __( 'Primary Sidebar', 'theme_name' ),
         'id'            => 'sidebar-1',
+        'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+        'after_widget'  => '</aside>',
+        'before_title'  => '<h3 class="widget-title">',
+        'after_title'   => '</h3>',
+    ) );
+
+    register_sidebar( array(
+        'name'          => __( 'Footer Menu', 'theme_name' ),
+        'id'            => 'footer-sidebar',
         'before_widget' => '<aside id="%1$s" class="widget %2$s">',
         'after_widget'  => '</aside>',
         'before_title'  => '<h3 class="widget-title">',
