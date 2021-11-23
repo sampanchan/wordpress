@@ -16,8 +16,22 @@ h1{
     display: flex;
     text-align: center;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
     
 }
+@media screen and (min-width: 768px){
+    .header-nav ul{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        
+    }
+}
+
+
 .header-nav ul li{
     list-style: none;
     margin: .5em;
@@ -136,6 +150,10 @@ p{
     }
     
 }
+h3{
+    font-size: 2rem;
+    text-align: center;
+}
 
 
 /* CPT's */
@@ -153,16 +171,48 @@ p{
 .price{
     font-size: 2rem;
 }
+.service-list{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    text-align: center;
+}
+@media screen and (min-width: 768px){
+    .service-list{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+.service-list li,
+.team-list li{
+    list-style: none;
+}
+.service-list li a,
+.team-list li a{
+    text-decoration: none;
+    color:white;
+    /* white-space: nowrap;
+    overflow: hidden; */
+    text-overflow: ellipsis;
+}
 .service-container{
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
     
 }
 @media screen and (min-width: 768px){
     .service-container{
         display: flex;
-        align-items: center;
+        /* align-items: center; */
         flex-direction: row;
+        align-items: flex-start;
     }
 }
 .service-div{
@@ -188,6 +238,20 @@ p{
         flex-direction: row;
         align-content: center;
         justify-content: center;
+        align-items: center;
+    }
+}
+.team-list{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+@media screen and (min-width: 768px){
+    .team-list{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
         align-items: center;
     }
 }
